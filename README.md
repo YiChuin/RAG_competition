@@ -21,6 +21,7 @@ Installation
 ### Using pip:
 
 下載
+
     !pip install chromadb==0.5.18
     !pip install -U FlagEmbedding==1.3.2
     !pip install langchain==0.3.7
