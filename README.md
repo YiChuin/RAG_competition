@@ -12,3 +12,17 @@ GM 美麗新世界
     - 可輸出參考資料的文本。
   - LLM 模型
     -  待更新
+
+--- 
+
+Installation
+---
+
+### Using pip:
+
+下載
+
+    !pip install -U FlagEmbedding
+    !pip install langchain
+    !pip install langchain-chroma
+    !pip install langchain_huggingface
