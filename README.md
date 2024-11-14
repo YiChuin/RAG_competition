@@ -21,8 +21,9 @@ Installation
 ### Using pip:
 
 下載
+    !pip install chromadb==0.5.18
+    !pip install -U FlagEmbedding==1.3.2
+    !pip install langchain==0.3.7
+    !pip install langchain-chroma==0.1.4
+    !pip install langchain_huggingface==0.1.2
 
-    !pip install -U FlagEmbedding
-    !pip install langchain
-    !pip install langchain-chroma
-    !pip install langchain_huggingface
