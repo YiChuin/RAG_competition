@@ -44,8 +44,8 @@ RAG_competition
 ├── Chroma/
 │   ├── Chuxin-Embedding-v2/
 │   │   └── db_faq/
-│   │   └── db_finance/
-│   │   └── db_insurance/
+│   │   └──  <span style="color:red;">└── db_finance//</span>
+│   │   └──  <span style="color:red;">└── db_insurance/</span>
 ```
 
   
