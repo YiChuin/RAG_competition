@@ -7,7 +7,7 @@ GM 美麗新世界
   - Test Dataset_Preliminary 1 : 儲存900題問題和輸出範例的json檔
   - preliminary:儲存轉為json檔後的問題和資料
     - finance_OCR(people).json : 將finance資料夾內的檔案內容提取，並且對部分含圖片的檔案內容做人工OCR後存成的json檔 (因使用其他OCR模組的提取效果不佳)
-    - insurance_data.json : 將insurance資料夾內的檔案內容提取出來做彙整的json檔
+    - insurance_data.json : 將insurance資料夾內的檔案內容提取出來做彙整並人工處理部分無關內容的json檔
     - pid_map_content.json : 將faq資料夾內的檔案內容提取出來的json檔
 - Chroma
   - 儲存三種類型的資料做embedding後的資料
