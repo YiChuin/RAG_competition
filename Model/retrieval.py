@@ -15,8 +15,8 @@ file_name = 'Chuxin-Embedding-v2'
 
 ## 檢索 ##
 K = 30  #從資料庫中 選取前"幾"相關做輸出後，丟入reranking，自動輸出最相關的文本檔案名稱
-url = "dataset/preliminary"
-question_path = os.path.join(url, 'questions_example.json') 
+url = "dataset/Test_Dataset_Preliminary_1"
+question_path = os.path.join(url, 'questions_preliminary.json') 
 output_path=  f'output/{file_name}/pred_retrieve_K{K}_{file_name}.json'
 with torch.no_grad():
     re.retriever2json( k=K, output_path=output_path, model=model, file_name=file_name,
