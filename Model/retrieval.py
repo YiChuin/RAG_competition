@@ -11,11 +11,11 @@ reranker = FlagReranker(reranker_model, use_fp16=True, padding=True)
 
 model_name = "chuxin-llm/Chuxin-Embedding"
 model = HuggingFaceEmbeddings(model_name=model_name)
-file_name = 'Chuxin-Embedding-v2'
+file_name = 'Chuxin-Embedding-v2' 
 
 ## 檢索 ##
 K = 30  #從資料庫中 選取前"幾"相關做輸出後，丟入reranking，自動輸出最相關的文本檔案名稱
-url = "dataset/Test_Dataset_Preliminary_1"
+url = "dataset/Test Dataset_Preliminary 1"
 question_path = os.path.join(url, 'questions_preliminary.json') 
 output_path=  f'output/{file_name}/pred_retrieve_K{K}_{file_name}.json'
 with torch.no_grad():
