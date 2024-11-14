@@ -1,4 +1,6 @@
 GM 美麗新世界
+
+esun-ai-cup-2024 ├── run1.py ├── model ├── model2 ├── preprocess ├── preprocess2 └── data ├── dataset/preliminary │ └── questions_example.json └── reference ├── faq ├── finance └── insurance
 ---
 - 資源配置: 使用Google Colab上的運算資源去做程式的運行，GPU為記憶體15GB的T4，Python版本為3.10.12
 
