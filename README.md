@@ -41,10 +41,10 @@ GM 美麗新世界
    pip list
    python --version
    ```
-(執行以下前請檢查path是否正確，且終端機導到RAG_competition-main即可)
-4.  執行 Preprocess內的embedding.py (可忽略，因reference資料已轉為向量儲存)
-5.  執行Model內的retrieval.py(預測)
-6.  檢查存在output_path內的預測結果
+   (執行以下前請檢查path是否正確，且終端機導到RAG_competition-main即可)
+4. 執行 Preprocess內的embedding.py (可忽略，因reference資料已轉為向量儲存)
+5. 執行Model內的retrieval.py(預測)
+6. 檢查存在output_path內的預測結果
    
 --- 
 
