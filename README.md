@@ -14,6 +14,10 @@ RAG_competition
 │   ├── embedding.py
 │   └── embedding_module.py
 ├── dataset/
+│   ├── faq/
+│   ├── finance/
+│   ├── insurance/
+│   ├── Test Dataset_Preliminary 1/
 │   ├── preliminary/
 │   │   ├── finance_OCR(people).json
 │   │   ├── insurance_data.json
