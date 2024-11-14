@@ -9,7 +9,12 @@ GM 美麗新世界
     - finance_OCR(people).json : 將finance資料夾內的檔案內容提取，並且對部分含圖片的檔案內容做人工OCR後存成的json檔 (因使用其他OCR模組的提取效果不佳)
     - insurance_data.json : 將insurance資料夾內的檔案內容提取出來做彙整的json檔
     - pid_map_content.json : 將faq資料夾內的檔案內容提取出來的json檔
-      
+- Chroma
+  - 儲存三種類型的資料做embedding後的資料
+  - 由於db_finance和df_insurance大於上傳限制，請至以下連結下載並儲存進Chroma模型內
+  - 連結 https://drive.google.com/drive/folders/103gOBxwf8gnJEqsI6d8KhpW9Y2dL-xsl?usp=sharing
+ 
+  
 - output
   - 儲存各種embedding方式和切塊策略的預測結果
 
