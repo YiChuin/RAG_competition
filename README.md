@@ -2,6 +2,7 @@ GM 美麗新世界
 ---
 - 資源配置: 使用Google Colab上的運算資源去做程式的運行，GPU為記憶體15GB的T4，Python版本為3.10.12
 
+## 檔案說明
 - dataset
   - faq、finance、insurance : 儲存不同類型資料的原始檔
   - Test Dataset_Preliminary 1 : 儲存900題問題和輸出範例的json檔
@@ -29,7 +30,22 @@ GM 美麗新世界
 
   - LLM 模型
     -  待更新
-
+## 使用說明
+1. 將資料從drive連結內存取到chroma資料夾內(db_faq直接覆蓋即可)
+2. 載入requirements.txt的套件
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. 檢查套件及python版本
+   ```bash
+   pip list
+   python --version
+   ```
+(執行以下前請檢查path是否正確，且終端機導到RAG_competition-main即可)
+4.  執行 Preprocess內的embedding.py (可忽略，因reference資料已轉為向量儲存)
+5.  執行Model內的retrieval.py(預測)
+6.  檢查存在output_path內的預測結果
+   
 --- 
 
 Installation
