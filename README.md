@@ -1,24 +1,32 @@
-GM 美麗新世界
+# 專案說明
+
+## 目錄結構圖
+請在Chuxin-Embedding-v2/內新增db_finance和db_insurance，連結在Chroma資料夾說明處
 ```
-esun-ai-cup-2024
-├── run1.py
-├── model
-├── model2
-├── preprocess
-├── preprocess2
-└── data 
-    ├── dataset/preliminary
-    │   └── questions_example.json
-    └── reference
-        ├── faq
-        ├── finance
-        └── insurance
+RAG_competition
+├── Chroma/
+│   ├── Chuxin-Embedding-v2/
+│   │   └── db_faq/
+├── Model/
+│   ├── retrieval.py
+│   └── retrieval_module.py
+├── Preprocess/
+│   ├── embedding.py
+│   └── embedding_module.py
+├── dataset/
+│   ├── preliminary/
+│   │   ├── finance_OCR(people).json
+│   │   ├── insurance_data.json
+│   │   └── pid_map_content.json
+├── output/
+├── README.md
+└── requirements.txt
 ```
 
 ---
 - 資源配置: 使用Google Colab上的運算資源去做程式的運行，GPU為記憶體15GB的T4，Python版本為3.10.12
 
-## 檔案說明
+## 目錄說明
 - dataset
   - faq、finance、insurance : 儲存不同類型資料的原始檔
   - Test Dataset_Preliminary 1 : 儲存900題問題和輸出範例的json檔
@@ -28,9 +36,18 @@ esun-ai-cup-2024
     - pid_map_content.json : 將faq資料夾內的檔案內容提取出來的json檔
 - Chroma
   - 儲存三種類型的資料做embedding後的資料
-  - 由於db_finance和df_insurance大於上傳限制，請至以下連結下載並儲存進Chroma模型內
+  - 由於db_finance和df_insurance大於上傳限制，請至以下連結下載並儲存進Chroma目錄內
   - 資料連結:  https://drive.google.com/drive/folders/103gOBxwf8gnJEqsI6d8KhpW9Y2dL-xsl?usp=sharing
- 
+
+儲存結果應為
+ ```
+├── Chroma/
+│   ├── Chuxin-Embedding-v2/
+│   │   └── db_faq/
+│   │   └── db_finance/
+│   │   └── db_insurance/
+```
+
   
 - output
   - 儲存各種embedding方式和切塊策略的預測結果
@@ -64,10 +81,10 @@ esun-ai-cup-2024
    
 --- 
 
-Installation
+## Installation
 ---
 
-### Using pip:
+## Using pip:
 
 下載
 
