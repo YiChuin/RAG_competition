@@ -40,13 +40,14 @@ RAG_competition
   - 資料連結:  https://drive.google.com/drive/folders/103gOBxwf8gnJEqsI6d8KhpW9Y2dL-xsl?usp=sharing
 
 儲存結果應為
- 
+
+```
 ├── Chroma/
 │   ├── Chuxin-Embedding-v2/
 │   │   └── db_faq/
-│   │   └──  <span style="color:red;">└── db_finance//</span>
-│   │   └──  <span style="color:red;">└── db_insurance/</span>
-
+│   │   └──  <span style="color:red;">db_finance//</span>
+│   │   └──  <span style="color:red;">db_insurance/</span>
+```
 
   
 - output
