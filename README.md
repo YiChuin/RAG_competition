@@ -1,11 +1,5 @@
 # RAG
 
-<a href="https://github.com/YiChuin/RAG_competition/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=YiChuin/RAG_competition" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
-
 # 專案說明
 
 ## 目錄結構圖
